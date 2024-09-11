@@ -3,11 +3,11 @@ import os
 
 import tensorflow as tf
 from tensorflow import keras
-from keras import backend as K
-from keras.models import Model
-from keras.layers import Input
-from keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
-from keras.optimizers import Adam
+from tensorflow.keras import backend as K
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
+from tensorflow.keras.optimizers import Adam
 from sklearn.model_selection import train_test_split
 
 from Neural_Network.f1 import f1
